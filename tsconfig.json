@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
+        "module": "ESNext",
+        "skipLibCheck": true,
+        "paths": {
+            "@api/*": ["./src/api/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@components/*": ["./src/components/*"],
+            "@constants/*": ["./src/constants/*"],
+            "@context/*": ["./src/context/*"],
+            "@hooks/*": ["./src/hooks/*"],
+            "@pages/*": ["./src/pages/*"],
+            "@styles/*": ["./src/styles/*"],
+            "@types/*": ["./src/types/*"],
+            "@utils/*": ["./src/utils/*"]
+        },
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "include": ["src", "./jest.setup.ts"]
+}

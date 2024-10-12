@@ -1,0 +1,13 @@
+{
+    "trailingComma": "es5",
+    "experimentalTernaries": true,
+    "useTabs": false,
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false,
+    "printWidth": 100,
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "proseWrap": "always",
+    "singleAttributePerLine": true
+}
